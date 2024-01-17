@@ -13,6 +13,8 @@
 		BCACDC702B581E3200CCFF16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCACDC6E2B581E3200CCFF16 /* Main.storyboard */; };
 		BCACDC722B581E4100CCFF16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCACDC712B581E4100CCFF16 /* Assets.xcassets */; };
 		BCACDC752B581E4100CCFF16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCACDC732B581E4100CCFF16 /* LaunchScreen.storyboard */; };
+		BCACDC812B58310900CCFF16 /* SliderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACDC802B58310900CCFF16 /* SliderItem.swift */; };
+		BCACDC842B583DDF00CCFF16 /* SliderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACDC832B583DDF00CCFF16 /* SliderViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BCACDC712B581E4100CCFF16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCACDC742B581E4100CCFF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCACDC762B581E4100CCFF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCACDC802B58310900CCFF16 /* SliderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderItem.swift; sourceTree = "<group>"; };
+		BCACDC832B583DDF00CCFF16 /* SliderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,57 @@
 		BCACDC672B581E3200CCFF16 /* OnboardingScreenSpaceWave */ = {
 			isa = PBXGroup;
 			children = (
-				BCACDC682B581E3200CCFF16 /* AppDelegate.swift */,
-				BCACDC6A2B581E3200CCFF16 /* SceneDelegate.swift */,
-				BCACDC6C2B581E3200CCFF16 /* ViewController.swift */,
-				BCACDC6E2B581E3200CCFF16 /* Main.storyboard */,
+				BCACDC7F2B58308B00CCFF16 /* Model */,
+				BCACDC7C2B58300E00CCFF16 /* AppDelegate */,
+				BCACDC7D2B58302D00CCFF16 /* Controllers */,
+				BCACDC7E2B58306800CCFF16 /* View */,
 				BCACDC712B581E4100CCFF16 /* Assets.xcassets */,
-				BCACDC732B581E4100CCFF16 /* LaunchScreen.storyboard */,
 				BCACDC762B581E4100CCFF16 /* Info.plist */,
 			);
 			path = OnboardingScreenSpaceWave;
+			sourceTree = "<group>";
+		};
+		BCACDC7C2B58300E00CCFF16 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BCACDC682B581E3200CCFF16 /* AppDelegate.swift */,
+				BCACDC6A2B581E3200CCFF16 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BCACDC7D2B58302D00CCFF16 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCACDC822B583DA300CCFF16 /* Cell */,
+				BCACDC6C2B581E3200CCFF16 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BCACDC7E2B58306800CCFF16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCACDC732B581E4100CCFF16 /* LaunchScreen.storyboard */,
+				BCACDC6E2B581E3200CCFF16 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCACDC7F2B58308B00CCFF16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCACDC802B58310900CCFF16 /* SliderItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCACDC822B583DA300CCFF16 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BCACDC832B583DDF00CCFF16 /* SliderViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +185,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCACDC6D2B581E3200CCFF16 /* ViewController.swift in Sources */,
+				BCACDC812B58310900CCFF16 /* SliderItem.swift in Sources */,
+				BCACDC842B583DDF00CCFF16 /* SliderViewCell.swift in Sources */,
 				BCACDC692B581E3200CCFF16 /* AppDelegate.swift in Sources */,
 				BCACDC6B2B581E3200CCFF16 /* SceneDelegate.swift in Sources */,
 			);
