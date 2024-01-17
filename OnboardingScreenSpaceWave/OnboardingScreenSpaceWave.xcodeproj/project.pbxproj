@@ -16,6 +16,8 @@
 		BCACDC812B58310900CCFF16 /* SliderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACDC802B58310900CCFF16 /* SliderItem.swift */; };
 		BCACDC842B583DDF00CCFF16 /* SliderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACDC832B583DDF00CCFF16 /* SliderViewCell.swift */; };
 		BCACDC872B5847AC00CCFF16 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BCACDC862B5847AC00CCFF16 /* Lottie */; };
+		BCACDC8C2B584E3000CCFF16 /* A1.json in Resources */ = {isa = PBXBuildFile; fileRef = BCACDC8B2B584E3000CCFF16 /* A1.json */; };
+		BCACDC8E2B584F8800CCFF16 /* A2.json in Resources */ = {isa = PBXBuildFile; fileRef = BCACDC8D2B584F8800CCFF16 /* A2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		BCACDC762B581E4100CCFF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCACDC802B58310900CCFF16 /* SliderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderItem.swift; sourceTree = "<group>"; };
 		BCACDC832B583DDF00CCFF16 /* SliderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewCell.swift; sourceTree = "<group>"; };
+		BCACDC8B2B584E3000CCFF16 /* A1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = A1.json; path = ../../../../../../../Downloads/A1.json; sourceTree = "<group>"; };
+		BCACDC8D2B584F8800CCFF16 /* A2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = A2.json; path = ../../../../../../../Downloads/A2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				BCACDC7D2B58302D00CCFF16 /* Controllers */,
 				BCACDC7E2B58306800CCFF16 /* View */,
 				BCACDC712B581E4100CCFF16 /* Assets.xcassets */,
+				BCACDC8B2B584E3000CCFF16 /* A1.json */,
+				BCACDC8D2B584F8800CCFF16 /* A2.json */,
 				BCACDC762B581E4100CCFF16 /* Info.plist */,
 			);
 			path = OnboardingScreenSpaceWave;
@@ -180,8 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCACDC752B581E4100CCFF16 /* LaunchScreen.storyboard in Resources */,
+				BCACDC8C2B584E3000CCFF16 /* A1.json in Resources */,
 				BCACDC722B581E4100CCFF16 /* Assets.xcassets in Resources */,
 				BCACDC702B581E3200CCFF16 /* Main.storyboard in Resources */,
+				BCACDC8E2B584F8800CCFF16 /* A2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

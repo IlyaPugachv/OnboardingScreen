@@ -3,8 +3,8 @@ import UIKit
 class ViewController: UIViewController {
     
     let sliderData: [SliderItem] = [
-      SliderItem(color: .gray, title: "Slide 1", text: "fast", animationName: ""),
-      SliderItem(color: .red, title: "Slide 2", text: "small", animationName: ""),
+      SliderItem(color: .gray, title: "Slide 1", text: "fast", animationName: "A1"),
+      SliderItem(color: .red, title: "Slide 2", text: "small", animationName: "A2"),
       SliderItem(color: .brown, title: "Slide 3", text: "forever", animationName: ""),
   ]
     
@@ -54,6 +54,8 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
             cell.contentView.backgroundColor = sliderData[indexPath.item].color
             cell.titleLabel.text = sliderData[indexPath.item].title
             cell.textLabel.text = sliderData[indexPath.item].text
+            
+            cell.animationSetup(animationName: sliderData[indexPath.item].animationName)
             return cell
         }
         return UICollectionViewCell()
