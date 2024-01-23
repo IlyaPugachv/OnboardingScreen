@@ -48,7 +48,7 @@ class SliderViewCell: UICollectionViewCell {
         lottieView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
         lottieView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor).isActive = true
         lottieView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor).isActive = true
-        lottieView.heightAnchor.constraint(equalToConstant: 300).isActive = true
+        lottieView.heightAnchor.constraint(equalToConstant: 350).isActive = true
         
         lottieView.play()
     }
